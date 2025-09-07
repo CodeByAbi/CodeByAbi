@@ -1,5 +1,46 @@
-# 💫 About Me:
-🔭 Data Scientist<br>🌱 Python | R Programming | Machine Learning<br>💬 abirawisnu7@gmail.com
+# Hi there 👋, I'm Abi  
+
+Welcome to my GitHub profile! 🚀  
+I’m passionate about **Data Science, AI, and Web Development**.  
+Currently exploring **Machine Learning, Cybersecurity, and Project Management**.  
+
+---
+
+## 🔹 About Me
+- 🌱 Currently learning: Python, Machine Learning, Scikit-learn, Deep Learning  
+- 💼 Open to: Collaborations on AI/ML projects & Web Development  
+- 🎯 2025 Goals: Build impactful projects, got an internship in technology startup!
+- ⚡ Fun fact: I enjoy blending creativity with technology  
+
+---
+
+## 🔹 Tech Stack
+💻 Languages:  
+`Python` `JavaScript` `HTML` `CSS`  
+
+⚙️ Tools & Frameworks:  
+`Pandas` `NumPy` `Matplotlib` `Scikit-learn` `Git` `Streamlit`  
+
+---
+
+## 🔹 Featured Projects
+- 📊 [Crop Recommendation using SMOTE Algorithm](https://github.com/CodeByAbi/crop-recommendation)  
+- 📈 [Car Sales Forecasting with XGBoost & SARIMA](https://github.com/CodeByAbi/car-sales-forecasting)  
+- 🤖 [FAQ Chatbot using Streamlit](https://github.com/CodeByAbi/faq-chatbot)  
+
+---
+
+## 🔹 GitHub Stats
+![Abi's GitHub stats](https://github-readme-stats.vercel.app/api?username=CodeByAbi&show_icons=true&theme=tokyonight)  
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeByAbi&layout=compact&theme=tokyonight)  
+
+---
+
+## 🔹 Connect with Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/abiwisnu)  
+[![Email](https://img.shields.io/badge/Email-red?style=flat&logo=gmail)](mailto:abirawisnu7@gmail.com)  
+
 
 
 ## 🌐 Socials:
