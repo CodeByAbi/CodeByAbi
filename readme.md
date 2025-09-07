@@ -28,20 +28,6 @@ Currently exploring **Machine Learning, Cybersecurity, and Project Management**.
 - 📈 [Car Sales Forecasting with XGBoost & SARIMA](https://github.com/CodeByAbi/car-sales-forecasting)  
 - 🤖 [FAQ Chatbot using Streamlit](https://github.com/CodeByAbi/faq-chatbot)  
 
----
-
-## 🔹 GitHub Stats
-![Abi's GitHub stats](https://github-readme-stats.vercel.app/api?username=CodeByAbi&show_icons=true&theme=tokyonight)  
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeByAbi&layout=compact&theme=tokyonight)  
-
----
-
-## 🔹 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/abiwisnu)  
-[![Email](https://img.shields.io/badge/Email-red?style=flat&logo=gmail)](mailto:abirawisnu7@gmail.com)  
-
-
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/abi.wsnu) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/abiwisnu) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abirawisnu7@gmail.com) 
