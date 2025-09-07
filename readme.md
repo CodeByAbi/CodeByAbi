@@ -1,14 +1,14 @@
 # Hi there 👋, I'm Abi  
 
 Welcome to my GitHub profile! 🚀  
-I’m passionate about **Data Science, AI, and Web Development**.  
-Currently exploring **Machine Learning, Cybersecurity, and Project Management**.  
+I’m passionate about **Data Science, AI, and Statistics**.  
+Currently exploring **Machine Learning, Deep Learning, PyTorch, Tensorflow, AI**.  
 
 ---
 
 ## 🔹 About Me
-- 🌱 Currently learning: Python, Machine Learning, Scikit-learn, Deep Learning  
-- 💼 Open to: Collaborations on AI/ML projects & Web Development  
+- 🌱 Currently learning: Python, Machine Learning, Scikit-learn, Deep Learning, PyTorch, Tensorflow, AI  
+- 💼 Open to: Collaborations on AI/ML projects 
 - 🎯 2025 Goals: Build impactful projects, got an internship in technology startup!
 - ⚡ Fun fact: I enjoy blending creativity with technology  
 
