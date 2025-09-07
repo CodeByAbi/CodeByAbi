@@ -1,30 +1,45 @@
-# Hi there 👋 I'm Abi  
-
-<!-- Banner / Header -->
+<!-- Header Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=Hi%20👋%20I'm%20Abi&fontSize=45&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=Hi%20there%20👋%20I'm%20Abi&fontSize=45&fontColor=ffffff&animation=fadeIn" />
 </p>
 
-Welcome to my GitHub profile! 🚀  
-I’m passionate about **Data Science, AI, and Statistics**.  
-Currently exploring **Machine Learning, Deep Learning, PyTorch, Tensorflow, AI**.  
+<h3 align="center">🚀 Data Science | 🤖 AI | 📊 Statistics</h3>
+<p align="center">
+  Passionate about <b>Data Science, AI, and Statistics</b>.  
+  Currently exploring <b>Machine Learning, Deep Learning, PyTorch, and TensorFlow</b>.  
+</p>
 
 ---
 
 ## 🔹 About Me
-- 🌱 Currently learning: Python, Machine Learning, Scikit-learn, Deep Learning, PyTorch, Tensorflow, AI  
-- 💼 Open to: Collaborations on AI/ML projects 
-- 🎯 2025 Goals: Build impactful projects, got an internship in technology startup!
-- ⚡ Fun fact: I enjoy blending creativity with technology  
+- 🌱 Currently learning: **Python, Scikit-learn, Deep Learning, PyTorch, TensorFlow, AI**  
+- 💼 Open to: **Collaborations on AI/ML projects**  
+- 🎯 2025 Goals: **Build impactful projects & land an internship at a tech startup!**  
+- ⚡ Fun fact: I love blending **creativity 🎨** with **technology 💻**  
 
 ---
 
 ## 🔹 Tech Stack
-💻 Languages:  
-`Python` `JavaScript` `HTML` `CSS`  
 
-⚙️ Tools & Frameworks:  
-`Pandas` `NumPy` `Matplotlib` `Scikit-learn` `Git` `Streamlit`  
+### 💻 Languages
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+</p>
+
+### ⚙️ Tools & Frameworks
+<p align="center">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=plotly&logoColor=blue"/>
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+</p>
 
 ---
 
@@ -33,6 +48,29 @@ Currently exploring **Machine Learning, Deep Learning, PyTorch, Tensorflow, AI**
 - 📈 [Car Sales Forecasting with XGBoost & SARIMA](https://github.com/CodeByAbi/car-sales-forecasting)  
 - 🤖 [FAQ Chatbot using Streamlit](https://github.com/CodeByAbi/faq-chatbot)  
 
+---
+
+## 🔹 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=CodeByAbi&show_icons=true&theme=tokyonight" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CodeByAbi&theme=tokyonight" height="160"/>
+</p>
+
+---
+
+## 🔹 Socials
+<p align="center">
+  <a href="https://instagram.com/yourusername"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:youremail@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</p>
+
+---
+
+<!-- Footer -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072ff,100:00c6ff&height=120&section=footer"/>
+</p>
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/abi.wsnu) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/abiwisnu) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abirawisnu7@gmail.com) 
