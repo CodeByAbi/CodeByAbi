@@ -1,4 +1,9 @@
-# Hi there 👋, I'm Abi  
+# Hi there 👋 I'm Abi  
+
+<!-- Banner / Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=200&section=header&text=Hi%20👋%20I'm%20Abi&fontSize=45&fontColor=ffffff&animation=fadeIn" />
+</p>
 
 Welcome to my GitHub profile! 🚀  
 I’m passionate about **Data Science, AI, and Statistics**.  
