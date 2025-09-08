@@ -14,7 +14,7 @@
 ## 🔹 About Me
 - 🌱 Currently learning: **Python, Scikit-learn, Deep Learning, PyTorch, TensorFlow, AI**  
 - 💼 Open to: **Collaborations on AI/ML projects**  
-- 🎯 2025 Goals: **Build impactful projects & land an internship at a tech startup!**  
+- 🎯 2025 Goals: **Build impactful projects & internship at a tech startup!**  
 - ⚡ Fun fact: I love blending **creativity 🎨** with **technology 💻**  
 
 ---
