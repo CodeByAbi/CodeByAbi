@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on **AI/ML & LLM-powered applications**<br><br>👯 I’m looking to collaborate on **AI, ML, Data Science & Open-Source projects**<br><br>🤝 I’m looking for help with **MLOps, LLMOps & scalable AI systems**<br><br>🌱 I’m currently learning **Generative AI, RAG & AI Engineering**<br><br>💬 Ask me about **Python, ML, RAG, OCR & LLMs**<br><br>⚡ Fun fact: **I like building AI systems that actually solve problems**<br>
+🔭 Hello I’m Abira Wisnunggal and currently working on **AI/ML & LLM-powered applications**<br><br>👯 I’m looking to collaborate on **AI, ML, Data Science & Open-Source projects**<br><br>🤝 I’m looking for help with **MLOps, LLMOps & scalable AI systems**<br><br>🌱 I’m currently learning **Generative AI, RAG & AI Engineering**<br><br>💬 Ask me about **Python, ML, RAG, OCR & LLMs**<br><br>⚡ Fun fact: **I like building AI systems that actually solve problems**<br>
 
 
 ## 🌐 Socials:
