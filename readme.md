@@ -29,19 +29,6 @@
 
 ---
 
-## Stack
-
-| Category | Technologies |
-|---|---|
-| Languages | C, Python, x86 Assembly, C++, C#, Rust, Bash, TypeScript, JavaScript |
-| Web | HTML, CSS, Flask, Jinja, Gunicorn, Nebula |
-| Databases | MongoDB |
-| Tools | Git, CMake, Selenium, npm |
-| Infrastructure | Cloudflare, Render |
-| Runtimes | .NET |
-
----
-
 ## GitHub Stats
 
 <table><tbody><tr border="none"><td width="50%" align="center">
