@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/CodeByAbi">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=850&height=55&lines=Abira+Wisnunggal;AI+Engineer+%7C+Machine+Learning+Engineer;LLM+%2F+RAG+%2F+OCR+%2F+Document+AI;Building+practical+AI+systems+from+data+to+deployment" alt="Typing headline" />
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=850&height=55&lines=Abira+Wisnunggal;AI+Engineer+%9C+Machine+Learning+Engineer;LLM+%2F+RAG+%2F+OCR+%2F+Document+AI;Building+practical+AI+systems+from+data+to+deployment" alt="Typing headline" />
   </a>
 </p>
 
