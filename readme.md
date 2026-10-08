@@ -1,27 +1,327 @@
-# 💫 About Me:
-🔭 Hello I’m Abira Wisnunggal and currently working on **AI/ML & LLM-powered applications**<br><br>👯 I’m looking to collaborate on **AI, ML, Data Science projects**<br><br>🤝 I’m looking for help with **MLOps, LLMOps & scalable AI systems**<br><br>🌱 I’m currently learning **Generative AI, RAG & AI Engineering**<br><br>💬 Ask me about **Python, ML, RAG, OCR & LLMs**<br><br>⚡ Fun fact: **I like building AI systems that actually solve problems**<br>
+<p align="center">
+  <a href="https://github.com/CodeByAbi">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=850&height=55&lines=AI+Engineer+%7C+Machine+Learning+Engineer;LLM+%2F+RAG+%2F+OCR+%2F+Document+AI;Building+practical+AI+systems+from+data+to+deployment" alt="Typing headline" />
+  </a>
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20ENGINEERING-0D1117?style=flat-square&logo=robotframework&logoColor=58A6FF" alt="AI Engineering" />
+  <img src="https://img.shields.io/badge/MACHINE%20LEARNING-0D1117?style=flat-square&logo=scikitlearn&logoColor=58A6FF" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/LLM%20%26%20RAG-0D1117?style=flat-square&logo=openai&logoColor=58A6FF" alt="LLM and RAG" />
+  <img src="https://img.shields.io/badge/DOCUMENT%20AI-0D1117?style=flat-square&logo=files&logoColor=58A6FF" alt="Document AI" />
+</p>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/abiwisnu) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/abiwisnu) 
-
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=for-the-badge&logo=bitbucket&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=CodeByAbi&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=CodeByAbi&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=CodeByAbi&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=CodeByAbi&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=CodeByAbi&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<p align="center">
+  <a href="https://www.linkedin.com/in/abiwisnu">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/abiwisnu">
+    <img src="https://img.shields.io/badge/Instagram-111111?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://github.com/CodeByAbi">
+    <img src="https://img.shields.io/badge/GitHub-CodeByAbi-161B22?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
 
 ---
-[![](https://komarev.com/ghpvc/?username=CodeByAbi&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## About
+
+I'm **Abira Wisnunggal**, a Data Science student focused on **AI Engineering, Machine Learning, and practical Generative AI systems**.
+
+My main interests sit at the intersection of **LLMs, RAG, OCR / Document AI, machine learning, and backend engineering** — turning data, documents, and models into usable AI applications rather than isolated experiments.
+
+I'm currently deepening my understanding of **MLOps, LLMOps, AI system design, retrieval pipelines, model evaluation, and scalable AI application architecture**.
+
+> **Build the model. Engineer the system. Make the intelligence useful.**
+
+---
+
+## Current Focus
+
+<table>
+  <tr>
+    <td width="50%">
+      <strong>AI Engineering</strong><br/>
+      Designing practical AI applications around models, retrieval, APIs, and data.
+    </td>
+    <td width="50%">
+      <strong>LLM Applications</strong><br/>
+      Building applications that combine language models with structured system logic.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Retrieval-Augmented Generation</strong><br/>
+      Embeddings, retrieval pipelines, knowledge bases, and grounded generation.
+    </td>
+    <td>
+      <strong>OCR & Document AI</strong><br/>
+      Exploring document understanding, OCR pipelines, and image-based information extraction.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Machine Learning & Deep Learning</strong><br/>
+      Classical ML, computer vision, neural networks, experimentation, and evaluation.
+    </td>
+    <td>
+      <strong>MLOps & LLMOps</strong><br/>
+      Learning how to move AI workloads toward reliable, maintainable systems.
+    </td>
+  </tr>
+</table>
+
+---
+
+## AI Engineering Toolkit
+
+```text
+┌──────────────────────┐
+│   DATA / DOCUMENTS   │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ PREPROCESSING / EDA  │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ EMBEDDINGS / ML / DL │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ RETRIEVAL / INFERENCE│
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ LLM / AI LOGIC       │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ API / ASYNC WORKERS  │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ DATABASE / DEPLOYMENT│
+└──────────────────────┘
+```
+
+The goal is not to showcase a single model.  
+It's to understand the **full path from raw information → intelligence → application**.
+
+---
+
+## Technical Stack
+
+### AI / Machine Learning
+
+<p>
+  <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-0D1117?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/TensorFlow-0D1117?style=flat-square&logo=tensorflow&logoColor=FF6F00" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/Keras-0D1117?style=flat-square&logo=keras&logoColor=D00000" alt="Keras" />
+  <img src="https://img.shields.io/badge/scikit--learn-0D1117?style=flat-square&logo=scikitlearn&logoColor=F7931E" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/Pandas-0D1117?style=flat-square&logo=pandas&logoColor=150458" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-0D1117?style=flat-square&logo=numpy&logoColor=4D77CF" alt="NumPy" />
+  <img src="https://img.shields.io/badge/SciPy-0D1117?style=flat-square&logo=scipy&logoColor=8CAAE6" alt="SciPy" />
+</p>
+
+### LLM / AI Engineering
+
+`LLM` · `RAG` · `Embeddings` · `Vector Databases` · `Text-to-SQL` · `OCR` · `Document AI` · `LLM Evaluation`
+
+`LangChain` · `LangGraph` · `LlamaIndex` · `FastAPI`
+
+### Data / Backend / Infrastructure
+
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/PostgreSQL-0D1117?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-0D1117?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Redis-0D1117?style=flat-square&logo=redis&logoColor=DC382D" alt="Redis" />
+  <img src="https://img.shields.io/badge/RabbitMQ-0D1117?style=flat-square&logo=rabbitmq&logoColor=FF6600" alt="RabbitMQ" />
+  <img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/Elasticsearch-0D1117?style=flat-square&logo=elasticsearch&logoColor=005571" alt="Elasticsearch" />
+</p>
+
+### Data Science / Visualization
+
+<p>
+  <img src="https://img.shields.io/badge/Matplotlib-0D1117?style=flat-square&logo=matplotlib&logoColor=11557C" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Streamlit-0D1117?style=flat-square&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/MLflow-0D1117?style=flat-square&logo=mlflow&logoColor=0194E2" alt="MLflow" />
+</p>
+
+<details>
+<summary><strong>Secondary stack</strong></summary>
+
+<br/>
+
+**Web / Application:**  
+TypeScript · Node.js · Express.js · Next.js · Tailwind CSS · Prisma
+
+**Cloud / Deployment:**  
+AWS · Azure · Google Cloud · Vercel
+
+**Development:**  
+Git · GitHub · Bitbucket
+
+**Databases / Storage:**  
+MongoDB · Firebase · pgvector
+
+</details>
+
+---
+
+## Featured AI / ML Projects
+
+The projects below are selected from the repositories currently featured on my GitHub profile.
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/CodeByAbi/DemoLabs-AI-Chatbot">DemoLabs AI Chatbot</a></h3>
+      <p>
+        AI chatbot orchestrator covering <strong>RAG, Text-to-SQL, OCR, semantic intent routing, and dynamic data visualization</strong>, with an asynchronous worker architecture.
+      </p>
+      <code>Python</code> · <code>FastAPI</code> · <code>RabbitMQ</code> · <code>Redis</code> · <code>Docker</code>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/CodeByAbi/Traffic-Monitoring-System">Traffic Monitoring System</a></h3>
+      <p>
+        Computer vision project focused on vehicle detection and tracking using <strong>YOLOv8</strong> and <strong>DeepSORT</strong>.
+      </p>
+      <code>Python</code> · <code>YOLOv8</code> · <code>DeepSORT</code> · <code>OpenCV</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3><a href="https://github.com/CodeByAbi/Rainfall-Prediction-in-Australia">Rainfall Prediction in Australia</a></h3>
+      <p>
+        End-to-end machine learning workflow covering <strong>EDA, cleaning, feature engineering, model training, tuning, and evaluation</strong> for rainfall prediction.
+      </p>
+      <code>Python</code> · <code>scikit-learn</code> · <code>Machine Learning</code>
+    </td>
+    <td>
+      <h3><a href="https://github.com/CodeByAbi/Nuxio">Nuxio</a></h3>
+      <p>
+        AI-assisted financial planning workspace concept combining financial planning workflows with an intelligent assistant. <strong>Early scaffold</strong>.
+      </p>
+      <code>TypeScript</code> · <code>Next.js</code> · <code>AI Application</code>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/CodeByAbi?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore%20all%20repositories-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" />
+  </a>
+</p>
+
+---
+
+## GitHub Activity
+
+> The cards below are generated into this repository by GitHub Actions.  
+> They are intentionally stored locally instead of relying on public stats endpoints with aggressive caching.
+
+<p align="center">
+  <img width="49%" src="./profile/stats.svg" alt="GitHub statistics for CodeByAbi" />
+  <img width="49%" src="./profile/top-langs.svg" alt="Top programming languages for CodeByAbi" />
+</p>
+
+<p align="center">
+  <img width="49%" src="./profile/streak.svg" alt="GitHub contribution streak for CodeByAbi" />
+  <a href="https://github.com/CodeByAbi" target="_blank">
+    <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=CodeByAbi&theme=react-dark&hide_border=true&area=true&days=31&radius=8&custom_title=Recent%20GitHub%20Activity" alt="Recent GitHub activity graph" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/CodeByAbi">
+    <img src="https://img.shields.io/badge/View%20canonical%20GitHub%20activity-0D1117?style=flat-square&logo=github&logoColor=white" alt="View canonical GitHub activity" />
+  </a>
+</p>
+
+<details>
+<summary><strong>Contribution Snake</strong></summary>
+
+<br/>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/github-snake.svg" />
+    <img src="./profile/github-snake.svg" alt="Animated GitHub contribution snake" />
+  </picture>
+</p>
+
+</details>
+
+---
+
+## GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=CodeByAbi&theme=onedark&no-frame=true&no-bg=true&column=4&margin-w=10&margin-h=8" alt="GitHub trophies for CodeByAbi" />
+</p>
+
+---
+
+## What I'm Building Toward
+
+```text
+                 AI ENGINEERING
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+        LLMs          RAG         OCR / CV
+          │            │            │
+          └────────────┼────────────┘
+                       ▼
+                AI APPLICATIONS
+                       │
+          ┌────────────┼────────────┐
+          ▼            ▼            ▼
+        APIs       Retrieval     Data Layer
+          │            │            │
+          └────────────┼────────────┘
+                       ▼
+             RELIABLE AI SYSTEMS
+```
+
+My direction is to keep strengthening the engineering layer around AI:
+
+**model → retrieval → orchestration → backend → data → deployment**
+
+without losing the data science foundation underneath it.
+
+---
+
+## Let's Build Something Intelligent
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/abiwisnu">
+    <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/abiwisnu">
+    <img src="https://img.shields.io/badge/Instagram-111111?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://github.com/CodeByAbi">
+    <img src="https://img.shields.io/badge/Follow%20CodeByAbi-161B22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=CodeByAbi&style=flat-square&label=PROFILE+VIEWS&color=58A6FF" alt="GitHub profile views" />
+</p>
+
+<p align="center">
+  <sub>AI Engineering · Machine Learning · LLM · RAG · OCR · Document AI · Data Science</sub>
+</p>
