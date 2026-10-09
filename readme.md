@@ -173,7 +173,7 @@ AWS · Google Cloud · Vercel
 Git · GitHub · Bitbucket
 
 **Databases / Storage:**  
-MongoDB · Firebase · pgvector
+MongoDB · pgvector
 
 </details>
 
