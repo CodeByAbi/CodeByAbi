@@ -1,17 +1,40 @@
-## 🐍 GitHub Contribution Snake
+name: Update Contribution Snake
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="profile/github-snake.svg">
-    <img
-      src="profile/github-snake.svg"
-      alt="Animated GitHub contribution snake for CodeByAbi"
-      width="100%"
-    />
-  </picture>
-</p>
+on:
+  schedule:
+    - cron: "23 0 * * *"
+  workflow_dispatch:
 
-<p align="center">
-  <sub>Watch my GitHub contribution activity come to life.</sub>
-</p>
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: CodeByAbi
+          outputs: |
+            profile/github-snake.svg
+            profile/github-snake-dark.svg?palette=github-dark
+
+      - name: Commit updated snake files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/github-snake.svg profile/github-snake-dark.svg
+
+          if git diff --cached --quiet; then
+            echo "Snake files are already up to date."
+            exit 0
+          fi
+
+          git commit -m "chore: update contribution snake"
+          git push

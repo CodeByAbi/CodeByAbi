@@ -65,6 +65,133 @@ function makeCard(title, items) {
   `;
 }
 
+function sumLast(n, recentDays) {
+  return recentDays.slice(-n).reduce((sum, day) => sum + day.contributionCount, 0);
+}
+
+function makeTrend(title, days, generatedLabel) {
+  const W = 1200;
+  const H = 320;
+  const padL = 56;
+  const padR = 28;
+  const padT = 56;
+  const padB = 48;
+  const plotW = W - padL - padR;
+  const plotH = H - padT - padB;
+
+  const max = Math.max(1, ...days.map((d) => d.contributionCount));
+  const n = days.length;
+  const stepX = n > 1 ? plotW / (n - 1) : 0;
+  const yFor = (count) => padT + plotH - (count / max) * plotH;
+  const xFor = (i) => padL + i * stepX;
+
+  const linePath = days
+    .map((d, i) => `${i === 0 ? "M" : "L"}${xFor(i).toFixed(1)},${yFor(d.contributionCount).toFixed(1)}`)
+    .join(" ");
+  const areaPath = `${linePath} L${xFor(n - 1).toFixed(1)},${(padT + plotH).toFixed(1)} L${xFor(0).toFixed(1)},${(padT + plotH).toFixed(1)} Z`;
+
+  const gridSteps = 4;
+  const gridlines = Array.from({ length: gridSteps + 1 }, (_, g) => {
+    const value = Math.round((max * g) / gridSteps);
+    const y = yFor((max * g) / gridSteps);
+    return `
+      <line x1="${padL}" y1="${y.toFixed(1)}" x2="${W - padR}" y2="${y.toFixed(1)}" stroke="#21262d" stroke-width="1"/>
+      <text x="${padL - 10}" y="${(y + 4).toFixed(1)}" text-anchor="end" fill="#8b949e" font-size="12">${value}</text>
+    `;
+  }).join("");
+
+  const first = days[0]?.date ?? "";
+  const last = days[n - 1]?.date ?? "";
+  const peak = days.reduce((a, b) => (b.contributionCount > a.contributionCount ? b : a), days[0]);
+
+  return `
+    <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+      <rect width="1200" height="320" rx="16" fill="#0d1117" stroke="#30363d"/>
+      <text x="32" y="38" fill="#58a6ff" font-size="19" font-weight="700">${escapeXml(title)}</text>
+      <text x="1168" y="38" text-anchor="end" fill="#8b949e" font-size="12">${escapeXml(first)} → ${escapeXml(last)}</text>
+      ${gridlines}
+      <path d="${areaPath}" fill="#58a6ff" opacity="0.15"/>
+      <path d="${linePath}" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+      ${days.map((d, i) => `<circle cx="${xFor(i).toFixed(1)}" cy="${yFor(d.contributionCount).toFixed(1)}" r="3" fill="#0d1117" stroke="#58a6ff" stroke-width="1.5"><title>${escapeXml(d.date)}: ${d.contributionCount} contributions</title></circle>`).join("")}
+      <text x="${padL}" y="${H - 16}" fill="#8b949e" font-size="12">${escapeXml(first)}</text>
+      <text x="${W - padR}" y="${H - 16}" text-anchor="end" fill="#8b949e" font-size="12">${escapeXml(last)}</text>
+      <text x="${W / 2}" y="${H - 16}" text-anchor="middle" fill="#8b949e" font-size="12">Peak ${peak.contributionCount} on ${escapeXml(peak.date)} · ${escapeXml(generatedLabel)}</text>
+    </svg>
+  `;
+}
+
+function heatColor(count) {
+  if (count <= 0) return "#161b22";
+  if (count <= 2) return "#0e4429";
+  if (count <= 5) return "#006d32";
+  if (count <= 9) return "#26a641";
+  return "#39d353";
+}
+
+function makeHeatmap(title, days, generatedLabel) {
+  const window = days.slice(-182);
+  const cols = Math.ceil(window.length / 7);
+  const cell = 15;
+  const gap = 4;
+  const padL = 40;
+  const padT = 70;
+  const padB = 56;
+  const W = padL + cols * (cell + gap) + 28;
+  const H = padT + 7 * (cell + gap) + padB;
+
+  const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  let rects = "";
+  let labels = "";
+  let lastMonth = "";
+
+  for (let c = 0; c < cols; c++) {
+    for (let r = 0; r < 7; r++) {
+      const idx = c * 7 + r;
+      const day = window[idx];
+      if (!day) continue;
+      const x = padL + c * (cell + gap);
+      const y = padT + r * (cell + gap);
+      rects += `<rect x="${x}" y="${y}" width="${cell}" height="${cell}" rx="3" fill="${heatColor(day.contributionCount)}"><title>${escapeXml(day.date)}: ${day.contributionCount} contributions</title></rect>`;
+    }
+    const firstOfCol = window[c * 7];
+    if (firstOfCol) {
+      const month = firstOfCol.date.slice(0, 7);
+      if (month !== lastMonth) {
+        lastMonth = month;
+        const monthIdx = Number(firstOfCol.date.slice(5, 7)) - 1;
+        const x = padL + c * (cell + gap);
+        labels += `<text x="${x}" y="${padT - 12}" fill="#8b949e" font-size="11">${monthNames[monthIdx]}</text>`;
+      }
+    }
+  }
+
+  const legend = ["Less", ...["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"].map((c) => `□`), "More"].join(" ");
+
+  return `
+    <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+      <rect width="${W}" height="${H}" rx="16" fill="#0d1117" stroke="#30363d"/>
+      <text x="28" y="38" fill="#58a6ff" font-size="19" font-weight="700">${escapeXml(title)}</text>
+      ${labels}
+      ${rects}
+      <text x="28" y="${H - 30}" fill="#8b949e" font-size="11">Less</text>
+      ${["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"].map((c, i) => `<rect x="${70 + i * 20}" y="${H - 42}" width="14" height="14" rx="3" fill="${c}"/>`).join("")}
+      <text x="${70 + 5 * 20 + 6}" y="${H - 30}" fill="#8b949e" font-size="11">More · ${escapeXml(generatedLabel)}</text>
+    </svg>
+  `;
+}
+
+function writeSvgSafe(filePath, svg) {
+  if (!svg.trimStart().startsWith("<svg") && !svg.includes("<svg")) {
+    throw new Error(`Refusing to write invalid SVG to ${filePath}`);
+  }
+  if (svg.length < 500) {
+    throw new Error(`Refusing to write suspiciously small SVG to ${filePath} (${svg.length} bytes)`);
+  }
+  const tmp = `${filePath}.tmp`;
+  fs.writeFileSync(tmp, svg);
+  fs.renameSync(tmp, filePath);
+}
+
 async function githubGraphQL(query, variables = {}) {
   const response = await fetch("https://api.github.com/graphql", {
     method: "POST",
@@ -128,6 +255,9 @@ async function main() {
     (sum, day) => sum + day.contributionCount,
     0
   );
+
+  const activeDays = recentDays.filter((day) => day.contributionCount > 0).length;
+  const avgPerActiveDay = activeDays > 0 ? (total / activeDays).toFixed(1) : "0.0";
 
   const countByDate = new Map(
     recentDays.map((day) => [day.date, day.contributionCount])
@@ -221,19 +351,30 @@ async function main() {
     .sort((a, b) => b.bytes - a.bytes)
     .slice(0, 5);
 
+  const generatedLabel = `Generated ${today} · ${timezone}`;
+  const last31 = recentDays.slice(-31);
+
   fs.mkdirSync("profile", { recursive: true });
 
-  fs.writeFileSync(
+  writeSvgSafe(
     path.join("profile", "stats.svg"),
     makeCard("GitHub Contributions", [
       {
         label: "Contributions · Last 365 Days",
         value: total.toLocaleString("en-US"),
       },
+      {
+        label: "Active Days · Last 365 Days",
+        value: `${activeDays} days`,
+      },
+      {
+        label: "Average · Per Active Day",
+        value: `${avgPerActiveDay}`,
+      },
     ])
   );
 
-  fs.writeFileSync(
+  writeSvgSafe(
     path.join("profile", "streak.svg"),
     makeCard("Contribution Streak", [
       { label: "Current Streak", value: `${currentStreak} days` },
@@ -241,7 +382,7 @@ async function main() {
     ])
   );
 
-  fs.writeFileSync(
+  writeSvgSafe(
     path.join("profile", "top-langs.svg"),
     makeCard(
       "Top Languages · Public Repositories",
@@ -251,10 +392,32 @@ async function main() {
     )
   );
 
+  writeSvgSafe(
+    path.join("profile", "activity-trend.svg"),
+    makeTrend("Activity Trend · Last 31 Days", last31, generatedLabel)
+  );
+
+  writeSvgSafe(
+    path.join("profile", "activity-heatmap.svg"),
+    makeHeatmap("Contribution Heatmap · Last 26 Weeks", recentDays, generatedLabel)
+  );
+
+  writeSvgSafe(
+    path.join("profile", "activity-summary.svg"),
+    makeCard("Activity Summary · Contributions", [
+      { label: "Last 7 Days", value: sumLast(7, recentDays).toLocaleString("en-US") },
+      { label: "Last 30 Days", value: sumLast(30, recentDays).toLocaleString("en-US") },
+      { label: "Last 90 Days", value: sumLast(90, recentDays).toLocaleString("en-US") },
+      { label: "Last 365 Days", value: total.toLocaleString("en-US") },
+    ])
+  );
+
   console.log(`Updated statistics for ${username}`);
   console.log(`Contributions in last 365 days: ${total}`);
+  console.log(`Active days: ${activeDays} (avg ${avgPerActiveDay}/day)`);
   console.log(`Current streak: ${currentStreak} days`);
   console.log(`Longest streak in last 365 days: ${longestStreak} days`);
+  console.log(`Last 7/30/90 days: ${sumLast(7, recentDays)}/${sumLast(30, recentDays)}/${sumLast(90, recentDays)}`);
   console.log(`Repositories analyzed: ${repositories.length}`);
   console.log("Top languages:", topLanguages.map((lang) => lang.label).join(", "));
 }
