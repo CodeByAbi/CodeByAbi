@@ -255,9 +255,6 @@ The projects below are selected from the repositories currently featured on my G
     <img alt="GitHub contribution snake animation" src="profile/github-snake.svg">
   </picture>
 </p>
-```
----
-
 
 ## 🏆 GitHub Trophies
 
