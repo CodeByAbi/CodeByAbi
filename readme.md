@@ -260,8 +260,13 @@ The projects below are selected from the repositories currently featured on my G
 
 ## GitHub Trophies
 
+## 🏆 GitHub Trophies
+
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=CodeByAbi&theme=onedark&no-frame=true&no-bg=true&column=4&margin-w=10&margin-h=8" alt="GitHub trophies for CodeByAbi" />
+  <img
+    src="https://trophy.ryglcloud.net/?username=CodeByAbi&theme=onedark&no-frame=true&no-bg=true&column=4"
+    alt="GitHub trophies for CodeByAbi"
+  />
 </p>
 
 ---
