@@ -236,27 +236,26 @@ The projects below are selected from the repositories currently featured on my G
   <img width="49%" src="./profile/top-langs.svg" alt="Top programming languages for CodeByAbi" />
 </p>
 
+
 <p align="center">
   <img width="49%" src="./profile/streak.svg" alt="GitHub contribution streak for CodeByAbi" />
   <a href="https://github.com/CodeByAbi" target="_blank">
     <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=CodeByAbi&theme=react-dark&hide_border=true&area=true&days=31&radius=8&custom_title=Recent%20GitHub%20Activity" alt="Recent GitHub activity graph" />
   </a>
 </p>
-<details>
-<summary><strong>Contribution Snake</strong></summary>
+
+## 🐍 Contribution Snake
 
 <br/>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/github-snake.svg" />
-    <img src="./profile/github-snake.svg" alt="Animated GitHub contribution snake" />
+    <source media="(prefers-color-scheme: dark)" srcset="profile/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="profile/github-snake.svg">
+    <img alt="GitHub contribution snake animation" src="profile/github-snake.svg">
   </picture>
 </p>
-
-</details>
-
+```
 ---
 
 ## GitHub Trophies
