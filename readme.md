@@ -258,7 +258,6 @@ The projects below are selected from the repositories currently featured on my G
 ```
 ---
 
-## GitHub Trophies
 
 ## 🏆 GitHub Trophies
 
