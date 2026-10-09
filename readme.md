@@ -167,7 +167,7 @@ It's to understand the **full path from raw information → intelligence → app
 TypeScript · Node.js · Express.js · Next.js · Tailwind CSS · Prisma
 
 **Cloud / Deployment:**  
-AWS · Azure · Google Cloud · Vercel
+AWS · Google Cloud · Vercel
 
 **Development:**  
 Git · GitHub · Bitbucket
