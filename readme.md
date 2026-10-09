@@ -254,14 +254,11 @@ The projects below are selected from the repositories currently featured on my G
 
 <br/>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./profile/github-snake.svg" />
-    <img src="./profile/github-snake.svg" alt="Animated GitHub contribution snake" />
-  </picture>
-</p>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile/github-snake.svg">
+  <img alt="GitHub contribution snake animation" src="profile/github-snake.svg">
+</picture>
 </details>
 
 ---
