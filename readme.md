@@ -35,11 +35,11 @@
 
 ## About
 
-I'm **Abira Wisnunggal**, a Data Science student working toward **AI Engineering** â€” building LLM-based applications that hold up outside the notebook.
+I'm **Abira Wisnunggal**, a Data Science student working toward **AI Engineering** — building LLM-based applications that hold up outside the notebook.
 
 Most of my work sits where models meet systems: **LLM applications, retrieval-augmented generation, OCR, and document understanding**, wired together with backend services and data layers. I care less about isolated model experiments than about whether the full pipeline answers correctly, runs predictably, and stays maintainable as it grows.
 
-Alongside that I'm building the operating side of AI systems â€” **MLOps, LLMOps, model evaluation, retrieval design, and system architecture** â€” because the distance between a working prototype and a usable product is mostly engineering.
+Alongside that I'm building the operating side of AI systems — **MLOps, LLMOps, model evaluation, retrieval design, and system architecture** — because the distance between a working prototype and a usable product is mostly engineering.
 
 > **Build the model. Engineer the system. Make the intelligence useful.**
 
@@ -89,9 +89,9 @@ Alongside that I'm building the operating side of AI systems â€” **MLOps, L
 </p>
 
 The goal is not to showcase a single model.  
-It's to understand the **full path from raw information â†’ intelligence â†’ application**.
+It's to understand the **full path from raw information → intelligence → application**.
 
-**model â†’ retrieval â†’ orchestration â†’ backend â†’ data â†’ deployment**
+**model → retrieval → orchestration → backend → data → deployment**
 
 ---
 
@@ -112,9 +112,9 @@ It's to understand the **full path from raw information â†’ intelligence â
 
 ### LLM / AI Engineering
 
-`LLM` Â· `RAG` Â· `Embeddings` Â· `Vector Databases` Â· `Text-to-SQL` Â· `OCR` Â· `Document AI` Â· `LLM Evaluation`
+`LLM` · `RAG` · `Embeddings` · `Vector Databases` · `Text-to-SQL` · `OCR` · `Document AI` · `LLM Evaluation`
 
-`LangChain` Â· `LangGraph` Â· `LlamaIndex` Â· `FastAPI`
+`LangChain` · `LangGraph` · `LlamaIndex` · `FastAPI`
 
 ### Data / Backend / Infrastructure
 
@@ -142,16 +142,16 @@ It's to understand the **full path from raw information â†’ intelligence â
 <br/>
 
 **Web / Application:**  
-TypeScript Â· Node.js Â· Express.js Â· Next.js Â· Tailwind CSS Â· Prisma
+TypeScript · Node.js · Express.js · Next.js · Tailwind CSS · Prisma
 
 **Cloud / Deployment:**  
-AWS Â· Google Cloud Â· Vercel
+AWS · Google Cloud · Vercel
 
 **Development:**  
-Git Â· GitHub Â· Bitbucket
+Git · GitHub · Bitbucket
 
 **Databases / Storage:**  
-MongoDB Â· pgvector
+MongoDB · pgvector
 
 </details>
 
@@ -159,7 +159,7 @@ MongoDB Â· pgvector
 
 ## Featured AI / ML Projects
 
-Selected repositories â€” each card describes the problem, the approach, and the stack as documented in that repository.
+Selected repositories — each card describes the problem, the approach, and the stack as documented in that repository.
 
 <table>
   <tr>
@@ -168,16 +168,16 @@ Selected repositories â€” each card describes the problem, the approach, an
       <p>
         AI chatbot orchestrator covering <strong>RAG, Text-to-SQL, OCR, semantic intent routing, and dynamic data visualization</strong>, with an asynchronous worker architecture.
       </p>
-      <p><sub>Problem â†’ approach:</sub> fragmented AI capabilities (retrieval, SQL, documents) unified behind intent routing and async workers.</p>
-      <code>Python</code> Â· <code>FastAPI</code> Â· <code>RabbitMQ</code> Â· <code>Redis</code> Â· <code>Docker</code>
+      <p><sub>Problem → approach:</sub> fragmented AI capabilities (retrieval, SQL, documents) unified behind intent routing and async workers.</p>
+      <code>Python</code> · <code>FastAPI</code> · <code>RabbitMQ</code> · <code>Redis</code> · <code>Docker</code>
     </td>
     <td width="50%">
       <h3><a href="https://github.com/CodeByAbi/Traffic-Monitoring-System">Traffic Monitoring System</a></h3>
       <p>
         Computer vision project focused on vehicle detection and tracking using <strong>YOLOv8</strong> and <strong>DeepSORT</strong>.
       </p>
-      <p><sub>Problem â†’ approach:</sub> traffic observation automated with detection plus multi-object tracking over video frames.</p>
-      <code>Python</code> Â· <code>YOLOv8</code> Â· <code>DeepSORT</code> Â· <code>OpenCV</code>
+      <p><sub>Problem → approach:</sub> traffic observation automated with detection plus multi-object tracking over video frames.</p>
+      <code>Python</code> · <code>YOLOv8</code> · <code>DeepSORT</code> · <code>OpenCV</code>
     </td>
   </tr>
   <tr>
@@ -186,16 +186,16 @@ Selected repositories â€” each card describes the problem, the approach, an
       <p>
         End-to-end machine learning workflow covering <strong>EDA, cleaning, feature engineering, model training, tuning, and evaluation</strong> for rainfall prediction.
       </p>
-      <p><sub>Problem â†’ approach:</sub> weather-station data taken from raw observations through to evaluated classification models.</p>
-      <code>Python</code> Â· <code>scikit-learn</code> Â· <code>Machine Learning</code>
+      <p><sub>Problem → approach:</sub> weather-station data taken from raw observations through to evaluated classification models.</p>
+      <code>Python</code> · <code>scikit-learn</code> · <code>Machine Learning</code>
     </td>
     <td>
       <h3><a href="https://github.com/CodeByAbi/Nuxio">Nuxio</a></h3>
       <p>
         AI-powered financial planning workspace for <strong>budgets, transactions, cashflow forecasting, and intelligent assistance</strong>.
       </p>
-      <p><sub>Problem â†’ approach:</sub> personal finance workflows combined with an AI assistant inside a planning workspace.</p>
-      <code>TypeScript</code> Â· <code>Next.js</code> Â· <code>AI Application</code>
+      <p><sub>Problem → approach:</sub> personal finance workflows combined with an AI assistant inside a planning workspace.</p>
+      <code>TypeScript</code> · <code>Next.js</code> · <code>AI Application</code>
     </td>
   </tr>
 </table>
@@ -255,9 +255,9 @@ Selected repositories â€” each card describes the problem, the approach, an
 
 My direction is to keep strengthening the engineering layer around AI:
 
-**model â†’ retrieval â†’ orchestration â†’ backend â†’ data â†’ deployment**
+**model → retrieval → orchestration → backend → data → deployment**
 
-without losing the data science foundation underneath it â€” from LLM and RAG systems through OCR and vision down to the APIs, retrieval, and data layers that make them reliable.
+without losing the data science foundation underneath it — from LLM and RAG systems through OCR and vision down to the APIs, retrieval, and data layers that make them reliable.
 
 ---
 
@@ -280,5 +280,5 @@ without losing the data science foundation underneath it â€” from LLM and R
 </p>
 
 <p align="center">
-  <sub>AI Engineering Â· Machine Learning Â· LLM Â· RAG Â· OCR Â· Document AI Â· Data Science</sub>
+  <sub>AI Engineering · Machine Learning · LLM · RAG · OCR · Document AI · Data Science</sub>
 </p>
