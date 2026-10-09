@@ -248,19 +248,17 @@ The projects below are selected from the repositories currently featured on my G
   </a>
 </p>
 
-<details>
-<summary><strong>🐍 Contribution Snake</strong></summary>
+## 🐍 Contribution Snake
 
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="profile/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="profile/github-snake.svg">
-  <img alt="GitHub contribution snake animation" src="profile/github-snake.svg">
-</picture>
-
-</details>
-
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="profile/github-snake.svg">
+    <img alt="GitHub contribution snake animation" src="profile/github-snake.svg">
+  </picture>
+</p>
 ---
 
 ## GitHub Trophies
