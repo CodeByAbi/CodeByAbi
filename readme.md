@@ -231,6 +231,7 @@ The projects below are selected from the repositories currently featured on my G
 > The cards below are generated into this repository by GitHub Actions.  
 > They are intentionally stored locally instead of relying on public stats endpoints with aggressive caching.
 
+
 <p align="center">
   <img width="49%" src="./profile/stats.svg" alt="GitHub statistics for CodeByAbi" />
   <img width="49%" src="./profile/top-langs.svg" alt="Top programming languages for CodeByAbi" />
@@ -239,9 +240,10 @@ The projects below are selected from the repositories currently featured on my G
 <p align="center">
   <img width="49%" src="./profile/streak.svg" alt="GitHub contribution streak for CodeByAbi" />
   <a href="https://github.com/CodeByAbi" target="_blank">
-    <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=CodeByAbi&theme=react-dark&hide_border=true&area=true&days=31&radius=8&custom_title=Recent%20GitHub%20Activity" alt="Recent GitHub activity graph" />
+    <img width="49%" src="./profile/activity-graph.svg" alt="Recent GitHub activity graph" />
   </a>
 </p>
+
 <p align="center">
   <a href="https://github.com/CodeByAbi">
     <img src="https://img.shields.io/badge/View%20canonical%20GitHub%20activity-0D1117?style=flat-square&logo=github&logoColor=white" alt="View canonical GitHub activity" />
