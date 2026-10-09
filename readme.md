@@ -1,6 +1,10 @@
 <p align="center">
   <a href="https://github.com/CodeByAbi">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=850&height=55&lines=Abira+Wisnunggal;AI+Engineer+%7C+Machine+Learning+Engineer;LLM+%2F+RAG+%2F+OCR+%2F+Document+AI;Building+practical+AI+systems+from+data+to+deployment" alt="Typing headline: Abira Wisnunggal, AI Engineer" />
+    <img
+      src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=26&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&multiline=true&width=620&height=140&lines=Abira+Wisnunggal;AI+Engineer+%c2%b7+Machine+Learning;LLM+%c2%b7+RAG+%c2%b7+OCR+%c2%b7+Document+AI;From+data+to+deployed+AI+systems"
+      alt="Animated typing headline: Abira Wisnunggal, AI Engineer and Machine Learning; LLM, RAG, OCR and Document AI; from data to deployed AI systems"
+      width="620"
+    />
   </a>
 </p>
 
@@ -9,21 +13,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%20ENGINEERING-0D1117?style=flat-square&logo=robotframework&logoColor=58A6FF" alt="AI Engineering" />
-  <img src="https://img.shields.io/badge/MACHINE%20LEARNING-0D1117?style=flat-square&logo=scikitlearn&logoColor=58A6FF" alt="Machine Learning" />
-  <img src="https://img.shields.io/badge/LLM%20%26%20RAG-0D1117?style=flat-square&logo=openai&logoColor=58A6FF" alt="LLM and RAG" />
-  <img src="https://img.shields.io/badge/DOCUMENT%20AI-0D1117?style=flat-square&logo=files&logoColor=58A6FF" alt="Document AI" />
+  <img src="https://img.shields.io/badge/AI%20ENGINEERING-161B22?style=flat-square&logo=huggingface&logoColor=58A6FF" alt="Focus area: AI Engineering" />
+  <img src="https://img.shields.io/badge/MACHINE%20LEARNING-161B22?style=flat-square&logo=kaggle&logoColor=58A6FF" alt="Focus area: Machine Learning" />
+  <img src="https://img.shields.io/badge/LLM%20%26%20RAG-161B22?style=flat-square&logo=ollama&logoColor=58A6FF" alt="Focus area: LLM and RAG" />
+  <img src="https://img.shields.io/badge/DOCUMENT%20AI-161B22?style=flat-square&logo=files&logoColor=58A6FF" alt="Focus area: Document AI" />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abiwisnu">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square" alt="LinkedIn profile of Abira Wisnunggal" />
   </a>
   <a href="https://www.instagram.com/abiwisnu">
-    <img src="https://img.shields.io/badge/Instagram-111111?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-E1306C?style=flat-square&logo=instagram&logoColor=white" alt="Instagram profile of Abira Wisnunggal" />
   </a>
   <a href="https://github.com/CodeByAbi">
-    <img src="https://img.shields.io/badge/GitHub-CodeByAbi-161B22?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-30363D?style=flat-square&logo=github&logoColor=white" alt="GitHub profile of Abira Wisnunggal" />
   </a>
 </p>
 
@@ -31,11 +35,11 @@
 
 ## About
 
-I'm **Abira Wisnunggal**, a Data Science student focused on **AI Engineering, Machine Learning, and practical Generative AI systems**.
+I'm **Abira Wisnunggal**, a Data Science student working toward **AI Engineering** â€” building LLM-based applications that hold up outside the notebook.
 
-My main interests sit at the intersection of **LLMs, RAG, OCR / Document AI, machine learning, and backend engineering** — turning data, documents, and models into usable AI applications rather than isolated experiments.
+Most of my work sits where models meet systems: **LLM applications, retrieval-augmented generation, OCR, and document understanding**, wired together with backend services and data layers. I care less about isolated model experiments than about whether the full pipeline answers correctly, runs predictably, and stays maintainable as it grows.
 
-I'm currently deepening my understanding of **MLOps, LLMOps, AI system design, retrieval pipelines, model evaluation, and scalable AI application architecture**.
+Alongside that I'm building the operating side of AI systems â€” **MLOps, LLMOps, model evaluation, retrieval design, and system architecture** â€” because the distance between a working prototype and a usable product is mostly engineering.
 
 > **Build the model. Engineer the system. Make the intelligence useful.**
 
@@ -85,9 +89,9 @@ I'm currently deepening my understanding of **MLOps, LLMOps, AI system design, r
 </p>
 
 The goal is not to showcase a single model.  
-It's to understand the **full path from raw information → intelligence → application**.
+It's to understand the **full path from raw information â†’ intelligence â†’ application**.
 
-**model → retrieval → orchestration → backend → data → deployment**
+**model â†’ retrieval â†’ orchestration â†’ backend â†’ data â†’ deployment**
 
 ---
 
@@ -108,9 +112,9 @@ It's to understand the **full path from raw information → intelligence → app
 
 ### LLM / AI Engineering
 
-`LLM` · `RAG` · `Embeddings` · `Vector Databases` · `Text-to-SQL` · `OCR` · `Document AI` · `LLM Evaluation`
+`LLM` Â· `RAG` Â· `Embeddings` Â· `Vector Databases` Â· `Text-to-SQL` Â· `OCR` Â· `Document AI` Â· `LLM Evaluation`
 
-`LangChain` · `LangGraph` · `LlamaIndex` · `FastAPI`
+`LangChain` Â· `LangGraph` Â· `LlamaIndex` Â· `FastAPI`
 
 ### Data / Backend / Infrastructure
 
@@ -138,16 +142,16 @@ It's to understand the **full path from raw information → intelligence → app
 <br/>
 
 **Web / Application:**  
-TypeScript · Node.js · Express.js · Next.js · Tailwind CSS · Prisma
+TypeScript Â· Node.js Â· Express.js Â· Next.js Â· Tailwind CSS Â· Prisma
 
 **Cloud / Deployment:**  
-AWS · Google Cloud · Vercel
+AWS Â· Google Cloud Â· Vercel
 
 **Development:**  
-Git · GitHub · Bitbucket
+Git Â· GitHub Â· Bitbucket
 
 **Databases / Storage:**  
-MongoDB · pgvector
+MongoDB Â· pgvector
 
 </details>
 
@@ -155,7 +159,7 @@ MongoDB · pgvector
 
 ## Featured AI / ML Projects
 
-Selected repositories — each card describes the problem, the approach, and the stack as documented in that repository.
+Selected repositories â€” each card describes the problem, the approach, and the stack as documented in that repository.
 
 <table>
   <tr>
@@ -164,16 +168,16 @@ Selected repositories — each card describes the problem, the approach, and the
       <p>
         AI chatbot orchestrator covering <strong>RAG, Text-to-SQL, OCR, semantic intent routing, and dynamic data visualization</strong>, with an asynchronous worker architecture.
       </p>
-      <p><sub>Problem → approach:</sub> fragmented AI capabilities (retrieval, SQL, documents) unified behind intent routing and async workers.</p>
-      <code>Python</code> · <code>FastAPI</code> · <code>RabbitMQ</code> · <code>Redis</code> · <code>Docker</code>
+      <p><sub>Problem â†’ approach:</sub> fragmented AI capabilities (retrieval, SQL, documents) unified behind intent routing and async workers.</p>
+      <code>Python</code> Â· <code>FastAPI</code> Â· <code>RabbitMQ</code> Â· <code>Redis</code> Â· <code>Docker</code>
     </td>
     <td width="50%">
       <h3><a href="https://github.com/CodeByAbi/Traffic-Monitoring-System">Traffic Monitoring System</a></h3>
       <p>
         Computer vision project focused on vehicle detection and tracking using <strong>YOLOv8</strong> and <strong>DeepSORT</strong>.
       </p>
-      <p><sub>Problem → approach:</sub> traffic observation automated with detection plus multi-object tracking over video frames.</p>
-      <code>Python</code> · <code>YOLOv8</code> · <code>DeepSORT</code> · <code>OpenCV</code>
+      <p><sub>Problem â†’ approach:</sub> traffic observation automated with detection plus multi-object tracking over video frames.</p>
+      <code>Python</code> Â· <code>YOLOv8</code> Â· <code>DeepSORT</code> Â· <code>OpenCV</code>
     </td>
   </tr>
   <tr>
@@ -182,16 +186,16 @@ Selected repositories — each card describes the problem, the approach, and the
       <p>
         End-to-end machine learning workflow covering <strong>EDA, cleaning, feature engineering, model training, tuning, and evaluation</strong> for rainfall prediction.
       </p>
-      <p><sub>Problem → approach:</sub> weather-station data taken from raw observations through to evaluated classification models.</p>
-      <code>Python</code> · <code>scikit-learn</code> · <code>Machine Learning</code>
+      <p><sub>Problem â†’ approach:</sub> weather-station data taken from raw observations through to evaluated classification models.</p>
+      <code>Python</code> Â· <code>scikit-learn</code> Â· <code>Machine Learning</code>
     </td>
     <td>
       <h3><a href="https://github.com/CodeByAbi/Nuxio">Nuxio</a></h3>
       <p>
         AI-powered financial planning workspace for <strong>budgets, transactions, cashflow forecasting, and intelligent assistance</strong>.
       </p>
-      <p><sub>Problem → approach:</sub> personal finance workflows combined with an AI assistant inside a planning workspace.</p>
-      <code>TypeScript</code> · <code>Next.js</code> · <code>AI Application</code>
+      <p><sub>Problem â†’ approach:</sub> personal finance workflows combined with an AI assistant inside a planning workspace.</p>
+      <code>TypeScript</code> Â· <code>Next.js</code> Â· <code>AI Application</code>
     </td>
   </tr>
 </table>
@@ -223,7 +227,7 @@ Selected repositories — each card describes the problem, the approach, and the
   <img width="49%" src="./profile/top-langs.svg" alt="Top programming languages for CodeByAbi" />
 </p>
 
-## 🐍 Contribution Snake
+## ðŸ Contribution Snake
 
 <br/>
 
@@ -235,7 +239,7 @@ Selected repositories — each card describes the problem, the approach, and the
   </picture>
 </p>
 
-## 🏆 GitHub Trophies
+## ðŸ† GitHub Trophies
 
 <p align="center">
   <img
@@ -251,9 +255,9 @@ Selected repositories — each card describes the problem, the approach, and the
 
 My direction is to keep strengthening the engineering layer around AI:
 
-**model → retrieval → orchestration → backend → data → deployment**
+**model â†’ retrieval â†’ orchestration â†’ backend â†’ data â†’ deployment**
 
-without losing the data science foundation underneath it — from LLM and RAG systems through OCR and vision down to the APIs, retrieval, and data layers that make them reliable.
+without losing the data science foundation underneath it â€” from LLM and RAG systems through OCR and vision down to the APIs, retrieval, and data layers that make them reliable.
 
 ---
 
@@ -276,5 +280,5 @@ without losing the data science foundation underneath it — from LLM and RAG sy
 </p>
 
 <p align="center">
-  <sub>AI Engineering · Machine Learning · LLM · RAG · OCR · Document AI · Data Science</sub>
+  <sub>AI Engineering Â· Machine Learning Â· LLM Â· RAG Â· OCR Â· Document AI Â· Data Science</sub>
 </p>
