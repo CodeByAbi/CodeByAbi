@@ -233,9 +233,12 @@ The projects below are selected from the repositories currently featured on my G
 
 
 <p align="center">
-  <img width="49%" src="./profile/stats.svg" alt="GitHub statistics for CodeByAbi" />
-  <img width="49%" src="./profile/top-langs.svg" alt="Top programming languages for CodeByAbi" />
+  <img width="49%" src="./profile/streak.svg" alt="GitHub contribution streak for CodeByAbi" />
+  <a href="https://github.com/CodeByAbi" target="_blank">
+    <img width="49%" src="https://raw.githubusercontent.com/CodeByAbi/CodeByAbi/output/activity-graph.svg" alt="Recent GitHub activity graph" />
+  </a>
 </p>
+
 
 <p align="center">
   <img width="49%" src="./profile/streak.svg" alt="GitHub contribution streak for CodeByAbi" />
