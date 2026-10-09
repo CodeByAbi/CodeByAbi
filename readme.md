@@ -1,7 +1,11 @@
 <p align="center">
   <a href="https://github.com/CodeByAbi">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=850&height=55&lines=Abira+Wisnunggal;AI+Engineer+%7C+Machine+Learning+Engineer;LLM+%2F+RAG+%2F+OCR+%2F+Document+AI;Building+practical+AI+systems+from+data+to+deployment" alt="Typing headline" />
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=850&height=55&lines=Abira+Wisnunggal;AI+Engineer+%7C+Machine+Learning+Engineer;LLM+%2F+RAG+%2F+OCR+%2F+Document+AI;Building+practical+AI+systems+from+data+to+deployment" alt="Typing headline: Abira Wisnunggal, AI Engineer" />
   </a>
+</p>
+
+<p align="center">
+  <img src="./profile/hero-divider.svg" alt="" width="100%" />
 </p>
 
 <p align="center">
@@ -56,17 +60,17 @@ I'm currently deepening my understanding of **MLOps, LLMOps, AI system design, r
       Embeddings, retrieval pipelines, knowledge bases, and grounded generation.
     </td>
     <td>
-      <strong>OCR & Document AI</strong><br/>
+      <strong>OCR &amp; Document AI</strong><br/>
       Exploring document understanding, OCR pipelines, and image-based information extraction.
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Machine Learning & Deep Learning</strong><br/>
+      <strong>Machine Learning &amp; Deep Learning</strong><br/>
       Classical ML, computer vision, neural networks, experimentation, and evaluation.
     </td>
     <td>
-      <strong>MLOps & LLMOps</strong><br/>
+      <strong>MLOps &amp; LLMOps</strong><br/>
       Learning how to move AI workloads toward reliable, maintainable systems.
     </td>
   </tr>
@@ -76,44 +80,14 @@ I'm currently deepening my understanding of **MLOps, LLMOps, AI system design, r
 
 ## AI Engineering Toolkit
 
-```text
-┌──────────────────────┐
-│   DATA / DOCUMENTS   │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ PREPROCESSING / EDA  │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ EMBEDDINGS / ML / DL │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ RETRIEVAL / INFERENCE│
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ LLM / AI LOGIC       │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ API / ASYNC WORKERS  │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│ DATABASE / DEPLOYMENT│
-└──────────────────────┘
-```
+<p align="center">
+  <img src="./profile/pipeline.svg" alt="AI engineering path: data, understanding, retrieval, reasoning, serving, operations" width="100%" />
+</p>
 
 The goal is not to showcase a single model.  
 It's to understand the **full path from raw information → intelligence → application**.
+
+**model → retrieval → orchestration → backend → data → deployment**
 
 ---
 
@@ -181,7 +155,7 @@ MongoDB · pgvector
 
 ## Featured AI / ML Projects
 
-The projects below are selected from the repositories currently featured on my GitHub profile.
+Selected repositories — each card describes the problem, the approach, and the stack as documented in that repository.
 
 <table>
   <tr>
@@ -190,6 +164,7 @@ The projects below are selected from the repositories currently featured on my G
       <p>
         AI chatbot orchestrator covering <strong>RAG, Text-to-SQL, OCR, semantic intent routing, and dynamic data visualization</strong>, with an asynchronous worker architecture.
       </p>
+      <p><sub>Problem → approach:</sub> fragmented AI capabilities (retrieval, SQL, documents) unified behind intent routing and async workers.</p>
       <code>Python</code> · <code>FastAPI</code> · <code>RabbitMQ</code> · <code>Redis</code> · <code>Docker</code>
     </td>
     <td width="50%">
@@ -197,6 +172,7 @@ The projects below are selected from the repositories currently featured on my G
       <p>
         Computer vision project focused on vehicle detection and tracking using <strong>YOLOv8</strong> and <strong>DeepSORT</strong>.
       </p>
+      <p><sub>Problem → approach:</sub> traffic observation automated with detection plus multi-object tracking over video frames.</p>
       <code>Python</code> · <code>YOLOv8</code> · <code>DeepSORT</code> · <code>OpenCV</code>
     </td>
   </tr>
@@ -206,13 +182,15 @@ The projects below are selected from the repositories currently featured on my G
       <p>
         End-to-end machine learning workflow covering <strong>EDA, cleaning, feature engineering, model training, tuning, and evaluation</strong> for rainfall prediction.
       </p>
+      <p><sub>Problem → approach:</sub> weather-station data taken from raw observations through to evaluated classification models.</p>
       <code>Python</code> · <code>scikit-learn</code> · <code>Machine Learning</code>
     </td>
     <td>
       <h3><a href="https://github.com/CodeByAbi/Nuxio">Nuxio</a></h3>
       <p>
-        AI-assisted financial planning workspace concept combining financial planning workflows with an intelligent assistant. <strong>Early scaffold</strong>.
+        AI-powered financial planning workspace for <strong>budgets, transactions, cashflow forecasting, and intelligent assistance</strong>.
       </p>
+      <p><sub>Problem → approach:</sub> personal finance workflows combined with an AI assistant inside a planning workspace.</p>
       <code>TypeScript</code> · <code>Next.js</code> · <code>AI Application</code>
     </td>
   </tr>
@@ -220,7 +198,7 @@ The projects below are selected from the repositories currently featured on my G
 
 <p align="center">
   <a href="https://github.com/CodeByAbi?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore%20all%20repositories-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" />
+    <img src="https://img.shields.io/badge/Explore%20all%20repositories-161B22?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories" />
   </a>
 </p>
 
@@ -228,21 +206,33 @@ The projects below are selected from the repositories currently featured on my G
 
 ## GitHub Activity
 
-> The cards below are generated into this repository by GitHub Actions.  
+> All cards below are generated into this repository by GitHub Actions (`Update Profile Statistics`, daily + on push + manual dispatch).
 > They are intentionally stored locally instead of relying on public stats endpoints with aggressive caching.
 
 <p align="center">
-  <img width="49%" src="./profile/stats.svg" alt="GitHub statistics for CodeByAbi" />
-  <img width="49%" src="./profile/top-langs.svg" alt="Top programming languages for CodeByAbi" />
+  <img src="./profile/activity-trend.svg" alt="Contribution trend over the last 31 days" width="100%" />
 </p>
 
+<p align="center">
+  <img src="./profile/activity-heatmap.svg" alt="Contribution heatmap over the last 26 weeks" width="100%" />
+</p>
+
+<p align="center">
+  <img width="49%" src="./profile/stats.svg" alt="GitHub statistics for CodeByAbi" />
+  <img width="49%" src="./profile/activity-summary.svg" alt="Contribution totals for the last 7, 30, 90, and 365 days" />
+</p>
 
 <p align="center">
   <img width="49%" src="./profile/streak.svg" alt="GitHub contribution streak for CodeByAbi" />
-  <a href="https://github.com/CodeByAbi" target="_blank">
-    <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=CodeByAbi&theme=react-dark&hide_border=true&area=true&days=31&radius=8&custom_title=Recent%20GitHub%20Activity" alt="Recent GitHub activity graph" />
-  </a>
+  <img width="49%" src="./profile/top-langs.svg" alt="Top programming languages for CodeByAbi" />
 </p>
+
+<sub>
+Contribution = GitHub contribution count (commits, pull requests, reviews, issues) per day.
+Day boundaries use 00:00–23:59 Asia/Jakarta.
+Streak counts consecutive days with at least one contribution, ending today (or yesterday if today is still empty).
+Top Languages reflects repository language composition across public non-fork repositories — not the share of contribution effort.
+</sub>
 
 ## 🐍 Contribution Snake
 
@@ -262,6 +252,7 @@ The projects below are selected from the repositories currently featured on my G
   <img
     src="https://trophy.ryglcloud.net/?username=CodeByAbi&theme=onedark&no-frame=true&no-bg=true&column=4"
     alt="GitHub trophies for CodeByAbi"
+    width="100%"
   />
 </p>
 
@@ -269,31 +260,11 @@ The projects below are selected from the repositories currently featured on my G
 
 ## What I'm Building Toward
 
-```text
-                 AI ENGINEERING
-                       │
-          ┌────────────┼────────────┐
-          ▼            ▼            ▼
-        LLMs          RAG         OCR / CV
-          │            │            │
-          └────────────┼────────────┘
-                       ▼
-                AI APPLICATIONS
-                       │
-          ┌────────────┼────────────┐
-          ▼            ▼            ▼
-        APIs       Retrieval     Data Layer
-          │            │            │
-          └────────────┼────────────┘
-                       ▼
-             RELIABLE AI SYSTEMS
-```
-
 My direction is to keep strengthening the engineering layer around AI:
 
 **model → retrieval → orchestration → backend → data → deployment**
 
-without losing the data science foundation underneath it.
+without losing the data science foundation underneath it — from LLM and RAG systems through OCR and vision down to the APIs, retrieval, and data layers that make them reliable.
 
 ---
 
