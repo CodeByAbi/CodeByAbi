@@ -214,10 +214,6 @@ Selected repositories — each card describes the problem, the approach, and the
 </p>
 
 <p align="center">
-  <img src="./profile/activity-heatmap.svg" alt="Contribution heatmap over the last 26 weeks" width="100%" />
-</p>
-
-<p align="center">
   <img width="49%" src="./profile/stats.svg" alt="GitHub statistics for CodeByAbi" />
   <img width="49%" src="./profile/activity-summary.svg" alt="Contribution totals for the last 7, 30, 90, and 365 days" />
 </p>
@@ -226,13 +222,6 @@ Selected repositories — each card describes the problem, the approach, and the
   <img width="49%" src="./profile/streak.svg" alt="GitHub contribution streak for CodeByAbi" />
   <img width="49%" src="./profile/top-langs.svg" alt="Top programming languages for CodeByAbi" />
 </p>
-
-<sub>
-Contribution = GitHub contribution count (commits, pull requests, reviews, issues) per day.
-Day boundaries use 00:00–23:59 Asia/Jakarta.
-Streak counts consecutive days with at least one contribution, ending today (or yesterday if today is still empty).
-Top Languages reflects repository language composition across public non-fork repositories — not the share of contribution effort.
-</sub>
 
 ## 🐍 Contribution Snake
 
@@ -252,7 +241,7 @@ Top Languages reflects repository language composition across public non-fork re
   <img
     src="https://trophy.ryglcloud.net/?username=CodeByAbi&theme=onedark&no-frame=true&no-bg=true&column=4"
     alt="GitHub trophies for CodeByAbi"
-    width="100%"
+    width="70%"
   />
 </p>
 
