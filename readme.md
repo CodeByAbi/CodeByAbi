@@ -227,7 +227,7 @@ Selected repositories â€” each card describes the problem, the approach, an
   <img width="49%" src="./profile/top-langs.svg" alt="Top programming languages for CodeByAbi" />
 </p>
 
-## ðŸ Contribution Snake
+## Contribution Snake
 
 <br/>
 
@@ -239,7 +239,7 @@ Selected repositories â€” each card describes the problem, the approach, an
   </picture>
 </p>
 
-## ðŸ† GitHub Trophies
+## GitHub Trophies
 
 <p align="center">
   <img
