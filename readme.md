@@ -35,11 +35,11 @@
 
 ## About
 
-I'm **Abira Wisnunggal**, a Data Science student working toward **AI Engineering** — building LLM-based applications that hold up outside the notebook.
+I'm **Abira Wisnunggal**, a Data Science student working toward **AI Engineering**. My focus is the part of AI work that happens after the model runs: getting the right context to it, and wrapping the whole thing in a service that holds up.
 
-Most of my work sits where models meet systems: **LLM applications, retrieval-augmented generation, OCR, and document understanding**, wired together with backend services and data layers. I care less about isolated model experiments than about whether the full pipeline answers correctly, runs predictably, and stays maintainable as it grows.
+Most of my projects sit between **LLM applications, retrieval, OCR, and document understanding** on one side, and backend services and data layers on the other. The part I care about is whether the full pipeline answers correctly on real input, not whether a notebook runs once.
 
-Alongside that I'm building the operating side of AI systems — **MLOps, LLMOps, model evaluation, retrieval design, and system architecture** — because the distance between a working prototype and a usable product is mostly engineering.
+Alongside that I'm learning the operational side: **MLOps, LLMOps, system design, and model evaluation**. This is still something I'm working through, and most of what I know so far comes from building the projects below.
 
 > **Build the model. Engineer the system. Make the intelligence useful.**
 
@@ -51,31 +51,31 @@ Alongside that I'm building the operating side of AI systems — **MLOps, LLMOps
   <tr>
     <td width="50%">
       <strong>AI Engineering</strong><br/>
-      Designing practical AI applications around models, retrieval, APIs, and data.
+      Putting models behind APIs, then wiring in retrieval, data, and evaluation.
     </td>
     <td width="50%">
       <strong>LLM Applications</strong><br/>
-      Building applications that combine language models with structured system logic.
+      Using a language model inside an application rather than as the whole product.
     </td>
   </tr>
   <tr>
     <td>
       <strong>Retrieval-Augmented Generation</strong><br/>
-      Embeddings, retrieval pipelines, knowledge bases, and grounded generation.
+      Chunking, embeddings, and retrieval quality.
     </td>
     <td>
       <strong>OCR &amp; Document AI</strong><br/>
-      Exploring document understanding, OCR pipelines, and image-based information extraction.
+      Turning PDFs and images into text a model can retrieve from.
     </td>
   </tr>
   <tr>
     <td>
       <strong>Machine Learning &amp; Deep Learning</strong><br/>
-      Classical ML, computer vision, neural networks, experimentation, and evaluation.
+      Regression and classification, neural networks, and computer vision.
     </td>
     <td>
       <strong>MLOps &amp; LLMOps</strong><br/>
-      Learning how to move AI workloads toward reliable, maintainable systems.
+      Currently learning: experiment tracking, evaluation, and reproducibility.
     </td>
   </tr>
 </table>
@@ -88,8 +88,7 @@ Alongside that I'm building the operating side of AI systems — **MLOps, LLMOps
   <img src="./profile/pipeline.svg" alt="AI engineering path: data, understanding, retrieval, reasoning, serving, operations" width="100%" />
 </p>
 
-The goal is not to showcase a single model.  
-It's to understand the **full path from raw information → intelligence → application**.
+The interesting part isn't a single model. It's the path from raw information to something you can actually call.
 
 **model → retrieval → orchestration → backend → data → deployment**
 
@@ -159,24 +158,24 @@ MongoDB · pgvector
 
 ## Featured AI / ML Projects
 
-Selected repositories — each card describes the problem, the approach, and the stack as documented in that repository.
+A few repositories, and the problem each one was trying to solve.
 
 <table>
   <tr>
     <td width="50%">
       <h3><a href="https://github.com/CodeByAbi/DemoLabs-AI-Chatbot">DemoLabs AI Chatbot</a></h3>
       <p>
-        AI chatbot orchestrator covering <strong>RAG, Text-to-SQL, OCR, semantic intent routing, and dynamic data visualization</strong>, with an asynchronous worker architecture.
+        A chatbot that routes each question to whichever backend can answer it: document retrieval, <strong>Text-to-SQL</strong>, or OCR, and renders charts when the answer is numeric. Longer jobs run on async workers.
       </p>
-      <p><sub>Problem → approach:</sub> fragmented AI capabilities (retrieval, SQL, documents) unified behind intent routing and async workers.</p>
+      <p><sub>Problem → approach:</sub> retrieval, SQL, and document parsing lived in three separate places. Intent routing picks one per request, and async workers keep the slow paths off the request thread.</p>
       <code>Python</code> · <code>FastAPI</code> · <code>RabbitMQ</code> · <code>Redis</code> · <code>Docker</code>
     </td>
     <td width="50%">
       <h3><a href="https://github.com/CodeByAbi/Traffic-Monitoring-System">Traffic Monitoring System</a></h3>
       <p>
-        Computer vision project focused on vehicle detection and tracking using <strong>YOLOv8</strong> and <strong>DeepSORT</strong>.
+        Detects vehicles in video and tracks them across frames, so the same vehicle keeps an ID instead of being counted again on the next frame.
       </p>
-      <p><sub>Problem → approach:</sub> traffic observation automated with detection plus multi-object tracking over video frames.</p>
+      <p><sub>Problem → approach:</sub> manual traffic observation. YOLOv8 for detection, DeepSORT to hold an identity across frames.</p>
       <code>Python</code> · <code>YOLOv8</code> · <code>DeepSORT</code> · <code>OpenCV</code>
     </td>
   </tr>
@@ -184,17 +183,17 @@ Selected repositories — each card describes the problem, the approach, and the
     <td>
       <h3><a href="https://github.com/CodeByAbi/Rainfall-Prediction-in-Australia">Rainfall Prediction in Australia</a></h3>
       <p>
-        End-to-end machine learning workflow covering <strong>EDA, cleaning, feature engineering, model training, tuning, and evaluation</strong> for rainfall prediction.
+        Predicts rainfall from weather-station data, covering <strong>EDA, cleaning, feature engineering, model training, tuning, and evaluation</strong>.
       </p>
-      <p><sub>Problem → approach:</sub> weather-station data taken from raw observations through to evaluated classification models.</p>
+      <p><sub>Problem → approach:</sub> raw observations taken through cleaning and features to a classification model I could actually measure.</p>
       <code>Python</code> · <code>scikit-learn</code> · <code>Machine Learning</code>
     </td>
     <td>
       <h3><a href="https://github.com/CodeByAbi/Nuxio">Nuxio</a></h3>
       <p>
-        AI-powered financial planning workspace for <strong>budgets, transactions, cashflow forecasting, and intelligent assistance</strong>.
+        A budgeting workspace that tracks transactions and forecasts cashflow, with an assistant that answers questions about the numbers.
       </p>
-      <p><sub>Problem → approach:</sub> personal finance workflows combined with an AI assistant inside a planning workspace.</p>
+      <p><sub>Problem → approach:</sub> budgets, transactions, and forecasts in one place, with an assistant for questions the charts don't answer directly.</p>
       <code>TypeScript</code> · <code>Next.js</code> · <code>AI Application</code>
     </td>
   </tr>
@@ -210,8 +209,8 @@ Selected repositories — each card describes the problem, the approach, and the
 
 ## GitHub Activity
 
-> All cards below are generated into this repository by GitHub Actions (`Update Profile Statistics`, daily + on push + manual dispatch).
-> They are intentionally stored locally instead of relying on public stats endpoints with aggressive caching.
+> These cards are generated by the `Update Profile Statistics` workflow (daily, on push, or on demand).
+> They're committed into this repository rather than loaded from public stats endpoints, which cache aggressively and go stale.
 
 <p align="center">
   <img src="./profile/activity-trend.svg" alt="Contribution trend over the last 31 days" width="100%" />
@@ -253,15 +252,15 @@ Selected repositories — each card describes the problem, the approach, and the
 
 ## What I'm Building Toward
 
-My direction is to keep strengthening the engineering layer around AI:
+The direction I'm working toward:
 
 **model → retrieval → orchestration → backend → data → deployment**
 
-without losing the data science foundation underneath it — from LLM and RAG systems through OCR and vision down to the APIs, retrieval, and data layers that make them reliable.
+I want to keep the data science foundation underneath it. That means working across LLM and RAG systems, OCR and vision, and the API and data layers that hold them together.
 
 ---
 
-## Let's Build Something Intelligent
+## Get in Touch
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abiwisnu">
