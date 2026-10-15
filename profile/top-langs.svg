@@ -8,32 +8,32 @@
       
       <circle cx="32" cy="112" r="4" fill="#3572A5"/>
       <text x="44" y="116" fill="#9aa4b2" font-size="13">Python</text>
-      <text x="432" y="121" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">48.0%</text>
-      <rect x="28" y="134" width="404" height="6" rx="3" fill="#21262d"/><rect x="28" y="134" width="193.9" height="6" rx="3" fill="#3572A5"/>
+      <text x="432" y="121" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">45.7%</text>
+      <rect x="28" y="134" width="404" height="6" rx="3" fill="#21262d"/><rect x="28" y="134" width="184.5" height="6" rx="3" fill="#3572A5"/>
     
       <line x1="28" y1="170" x2="432" y2="170" stroke="#1c2128" stroke-width="1"/>
       <circle cx="32" cy="190" r="4" fill="#DA5B0B"/>
       <text x="44" y="194" fill="#9aa4b2" font-size="13">Jupyter Notebook</text>
-      <text x="432" y="199" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">23.1%</text>
-      <rect x="28" y="212" width="404" height="6" rx="3" fill="#21262d"/><rect x="28" y="212" width="93.4" height="6" rx="3" fill="#DA5B0B"/>
+      <text x="432" y="199" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">25.3%</text>
+      <rect x="28" y="212" width="404" height="6" rx="3" fill="#21262d"/><rect x="28" y="212" width="102.2" height="6" rx="3" fill="#DA5B0B"/>
     
       <line x1="28" y1="248" x2="432" y2="248" stroke="#1c2128" stroke-width="1"/>
       <circle cx="32" cy="268" r="4" fill="#3178c6"/>
       <text x="44" y="272" fill="#9aa4b2" font-size="13">TypeScript</text>
-      <text x="432" y="277" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">21.6%</text>
-      <rect x="28" y="290" width="404" height="6" rx="3" fill="#21262d"/><rect x="28" y="290" width="87.5" height="6" rx="3" fill="#3178c6"/>
+      <text x="432" y="277" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">21.7%</text>
+      <rect x="28" y="290" width="404" height="6" rx="3" fill="#21262d"/><rect x="28" y="290" width="87.7" height="6" rx="3" fill="#3178c6"/>
     
       <line x1="28" y1="326" x2="432" y2="326" stroke="#1c2128" stroke-width="1"/>
       <circle cx="32" cy="346" r="4" fill="#fcb32c"/>
       <text x="44" y="350" fill="#9aa4b2" font-size="13">MDX</text>
-      <text x="432" y="355" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">4.1%</text>
-      <rect x="28" y="368" width="404" height="6" rx="3" fill="#21262d"/><rect x="28" y="368" width="16.5" height="6" rx="3" fill="#fcb32c"/>
+      <text x="432" y="355" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">4.5%</text>
+      <rect x="28" y="368" width="404" height="6" rx="3" fill="#21262d"/><rect x="28" y="368" width="18.0" height="6" rx="3" fill="#fcb32c"/>
     
       <line x1="28" y1="404" x2="432" y2="404" stroke="#1c2128" stroke-width="1"/>
       <circle cx="32" cy="424" r="4" fill="#e34c26"/>
       <text x="44" y="428" fill="#9aa4b2" font-size="13">HTML</text>
-      <text x="432" y="433" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">0.9%</text>
-      <rect x="28" y="446" width="404" height="6" rx="3" fill="#21262d"/><rect x="28" y="446" width="4.0" height="6" rx="3" fill="#e34c26"/>
+      <text x="432" y="433" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">1.0%</text>
+      <rect x="28" y="446" width="404" height="6" rx="3" fill="#21262d"/><rect x="28" y="446" width="4.1" height="6" rx="3" fill="#e34c26"/>
     
       <text x="28" y="502" fill="#6e7681" font-size="10" letter-spacing="1">UPDATED DAILY · GITHUB ACTIONS · ASIA/JAKARTA</text>
     </svg>

@@ -8,19 +8,19 @@
       
       
       <text x="28" y="116" fill="#9aa4b2" font-size="13">Contributions · Last 365 Days</text>
-      <text x="432" y="121" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">430</text>
+      <text x="432" y="121" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">175</text>
       
     
       <line x1="28" y1="150" x2="432" y2="150" stroke="#1c2128" stroke-width="1"/>
       
       <text x="28" y="174" fill="#9aa4b2" font-size="13">Active Days · Last 365 Days</text>
-      <text x="432" y="179" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">29 days</text>
+      <text x="432" y="179" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">22 days</text>
       
     
       <line x1="28" y1="208" x2="432" y2="208" stroke="#1c2128" stroke-width="1"/>
       
       <text x="28" y="232" fill="#9aa4b2" font-size="13">Average · Per Active Day</text>
-      <text x="432" y="237" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">14.8</text>
+      <text x="432" y="237" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">8.0</text>
       
     
       <text x="28" y="286" fill="#6e7681" font-size="10" letter-spacing="1">UPDATED DAILY · GITHUB ACTIONS · ASIA/JAKARTA</text>
