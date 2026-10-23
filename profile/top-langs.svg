@@ -33,7 +33,7 @@
       <circle cx="32" cy="424" r="4" fill="#e34c26"/>
       <text x="44" y="428" fill="#9aa4b2" font-size="13">HTML</text>
       <text x="432" y="433" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">1.0%</text>
-      <rect x="28" y="446" width="404" height="6" rx="3" fill="#21262d"/><rect x="28" y="446" width="4.1" height="6" rx="3" fill="#e34c26"/>
+      <rect x="28" y="446" width="404" height="6" rx="3" fill="#21262d"/><rect x="28" y="446" width="4.0" height="6" rx="3" fill="#e34c26"/>
     
       <text x="28" y="502" fill="#6e7681" font-size="10" letter-spacing="1">UPDATED DAILY · GITHUB ACTIONS · ASIA/JAKARTA</text>
     </svg>
