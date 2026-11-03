@@ -20,7 +20,7 @@
       <line x1="28" y1="208" x2="432" y2="208" stroke="#1c2128" stroke-width="1"/>
       
       <text x="28" y="232" fill="#9aa4b2" font-size="13">Last 90 Days</text>
-      <text x="432" y="237" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">185</text>
+      <text x="432" y="237" text-anchor="end" fill="#ffffff" font-size="21" font-weight="800">165</text>
       
     
       <line x1="28" y1="266" x2="432" y2="266" stroke="#1c2128" stroke-width="1"/>
